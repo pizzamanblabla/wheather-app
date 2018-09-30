@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".activity.AddNewCity">
+
+    <EditText
+        android:id="@+id/edit_word"
+        style="@android:style/Widget.DeviceDefault.Light.AutoCompleteTextView"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/big_padding"
+        android:layout_marginTop="88sp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_horizontal"
+        android:hint="@string/hint_city"
+        android:inputType="textAutoComplete"
+        android:padding="@dimen/small_padding"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/background_dark"
+        android:textColorLink="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="88sp"
+        android:layout_height="88sp"
+        android:layout_marginTop="104sp"
+        android:background="@drawable/round_button"
+        android:text="@string/button_save"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp" />
+
+</LinearLayout>

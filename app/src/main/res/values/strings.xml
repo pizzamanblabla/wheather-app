@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="humidity_txt">Humidity:</string>
+    <string name="pressure_txt">Pressure:</string>
+    <string name="min_temperature_txt">Min Temperature:</string>
+    <string name="max_temperature_txt">Max Temperature:</string>
+    <string name="wind_speed_txt">Wind Speed:</string>
+    <string name="forecast_icon">&#xf014;</string>
+    <string name="update_btn">Update!</string>
+    <string name="list__icon"></string>
+    <string name="hint_city">City</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">City not saved because it is empty.</string>
+    <string name="wrong_city_format">Cannot find any location by given input.</string>
+    <string name="title_activity_city_list_new">CityListNew</string>
+    <string name="locationsTxt">Saved Locations</string>
+    <string name="no_cities_in_list">No Cities In List</string>
+    <string name="weather_data_filed">Failed to get weather data</string>
+</resources>
